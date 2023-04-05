@@ -1,0 +1,184 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  margin-left: 85px;
+  color: #fff6fb;
+  letter-spacing: 0.3em;
+  text-shadow: -2px 5px 2px yellow;
+}
+#output {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#search {
+  display: flex;
+  justify-content: space-around;
+}
+#inp {
+  width: 30%;
+  color: black;
+  padding-top: 20px;
+  border: none;
+  background-color: yellow;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+#select {
+  width: 200px;
+  height: 100%;
+  color: black;
+  padding-top: 20px;
+  border: none;
+  background-color: yellow;
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+#random {
+  width: 200px;
+  height: 100%;
+  color: black;
+  padding-top: 20px;
+  border: none;
+  background-color: yellow;
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+button {
+  width: 200px;
+  color: black;
+  padding-top: 15px;
+  border: none;
+  background-color: yellow;
+}
+.cardi {
+  width: 20%;
+  height: min-content;
+  flex: 0 1 18%;
+  overflow: hidden;
+  margin: 20px 0;
+  --animate-repeat: 2;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    yellow 0px 12px 13px, yellow 0px -3px 5px;
+  transition: 100ms;
+}
+
+#output .cardi:hover {
+  box-shadow: 0 0 0px 1px yellow, 0 0 10px 2px yellow,
+    inset 0 0 0px 1px white inset 0 0 30px 2px white;
+  transform: translateY(-5px);
+}
+.card {
+  width: 35%;
+  height: min-content;
+  background-color: #feb1de;
+  overflow: hidden;
+  margin: 20px 0;
+  --animate-repeat: 2;
+  border-radius: 15px;
+  transition: 100ms;
+}
+
+.textCocktail {
+  text-align: center;
+  padding: 0.5rem 1em;
+  width: 50%;
+  height: min-content;
+  transition: all 0.5s ease;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  border-radius: 0.5rem 2rem;
+  letter-spacing: 0.3em;
+}
+
+.textCocktail:hover {
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}
+
+img {
+  width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  box-shadow: none;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  font-size: 20px;
+}
+
+p:hover {
+  transform: perspective(100px) translateX(1px) rotateX(3deg) rotateY(3deg)
+    scale(1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  transform: translateY(-5px);
+}
+
+li {
+  color: yellow;
+  font-family: "Libre Baskerville", serif;
+  font-size: 35px;
+  list-style-type: none;
+}
+
+li:hover {
+  transform: perspective(100px) translateX(1px) rotateX(3deg) rotateY(3deg)
+    scale(1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: yellowgreen;
+  font-family: "Libre Baskerville", serif;
+  box-shadow: white 0px 30px 60px -12px, white(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+h4 {
+  color: #fd3084;
+  letter-spacing: 0.3em;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  color: yellow;
+  font-size: 65px;
+}
+
+h3:hover {
+  transform: perspective(100px) translateX(1px) rotateX(3deg) rotateY(3deg)
+    scale(1);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  transform: translateY(-5px);
+}
+
+h3:active {
+  transform: translateY(1px);
+}
